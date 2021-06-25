@@ -1,0 +1,67 @@
+@font-face{
+    font-family: 'Texgyreadventor-regular';
+    src: url('../fonts/texgyreadventor-regular.otf');
+}
+body {
+    margin: 0;
+}
+.logo {
+    font-family: 'Texgyreadventor-regular';
+    width: 540px;
+    height: 82px;
+
+    display: flex;
+}
+.one_string {
+    display: flex;
+}
+.one_string h6 {
+    margin: 53px 0 0 -70px;
+    font-size: 7px;
+}
+.one_string h3 {
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.one {
+    margin: 18px 0 0 10px;
+}
+.two {
+    margin: 5px 0 0 10px;
+    color: #49adf8;
+}
+
+.main_cirle {
+    position: relative;
+    
+    width: 82px;
+    height: 82px;
+
+    background: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    background-image:
+        linear-gradient(326deg, transparent 50%,  #201909 50%),
+        linear-gradient(34deg,  #201909 50%, transparent 50%);
+}
+
+.small_cirle {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+
+    width: 50px;
+    height: 50px;
+
+    background: #49adf8;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    background-image:
+        linear-gradient(326deg, transparent 50%,  #ffffff 50%),
+        linear-gradient(34deg,  #ffffff 50%, transparent 50%);
+}
